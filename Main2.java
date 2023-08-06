@@ -32,7 +32,7 @@ public class Main2 {
             ActionListener buttonListener1 = new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    File file = new File("/home/bunta/Pictures/i00_640x360.jpg");
+                    File file = new File("./images/01.jpg");
                     // Загружаем изображение и отображаем его в метке
                     imageLabel.setIcon(new ImageIcon(file.getPath()));
                     frame.pack();
@@ -43,7 +43,7 @@ public class Main2 {
             ActionListener buttonListener2 = new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    File file = new File("/home/bunta/Pictures/01.jpg");
+                    File file = new File("./images/02.jpg");
                     // Загружаем изображение и отображаем его в метке
                     imageLabel.setIcon(new ImageIcon(file.getPath()));
                     frame.pack();
