@@ -1,6 +1,16 @@
 # java_viewers1
 JAVA Swing for images and Files Viewer
 
+## JAVA on Manjaro Linux
+- **`sudo pacman -S jdk-openjdk`**
+
+- Команда javac Main.java компилирует ваш файл Main.java и создает файл Main.class, который содержит байт-код Java.
+- **`javac Main.java`**
+
+- Команда java Main загружает и выполняет класс Main.
+- **`java Main`**
+
+  
 ## Swing
 - Для разработки графического интерфейса в Java, кроме JavaFX, часто используется Swing.
 - Swing является частью стандартного JDK, поэтому его не нужно устанавливать отдельно.
